@@ -9,9 +9,13 @@ import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * 
+ * @author JAVIER
+ */
 public class ConexionBd {
 
-    private static String URL = "jdbc:h2:tcp://localhost/./waterpolo";
+    private static String URL = "jdbc:h2:/./waterpolo";
     private static String USER = "sa";
     private static String PASS = "";
     private static String CREATION_STATEMENT
